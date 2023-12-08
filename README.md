@@ -46,6 +46,7 @@ https://t.me/c/xxxx/101 - 120
 ```
 
 _note that space in between doesn't matter_
-# ʜᴇʀᴋᴜ ᴅᴇᴘʟᴏʏ
-</h3>
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/bipinkrish/Save-Restricted-Bot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+## ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 🚀
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/dattuxd/BK-OP-TOM"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
+The easiest way to host this bot, Deploy on Heroku, Change the app country to Europe (it will help to make the bot more stable).
