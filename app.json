@@ -1,56 +1,36 @@
+
 {
-    "name": "TOM X JERRY",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/5b5803b02a24b043fc6d0.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "bot",
-    "AnonX",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "stack": "container",
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
-        "required": true
-      },
-      
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": true
-      },
-        
-      "STRING_SESSION": {
-        "description": "A Pyrogram String Session @MrperfectXd. One Assistant is Compulsory.",
-        "value": "",
-        "required": true
-      },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "eco"
-          }
-      },
-      "stack": "container"
-  }
+  "name": "𝗖𝗛𝗔𝗧𝗚𝗣𝗧𝗕𝗢𝗧",
+  "description": "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗧 𝗚𝗣𝗧 𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 vikas.",
+  "logo": "https://graph.org/file/b840154ca8a628e14577d.jpg",
+  "keywords": [
+    "telegram", "chatgpt",
+    "python",
+    "pyrogram",
+    "CRAZYTEAM"   
+  ],
+  "stack": "heroku-20",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": { "description": "𝗕𝗢𝗧 𝗧𝗢𝗞𝗘𝗡 𝗗𝗔𝗟 𝗡𝗔𝗔 𝗝𝗛𝗔𝗔𝗧𝗛𝗨",
+      "required": true
+    },
+    
+    
+    "API_ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "𝗔𝗣𝗜 𝗛𝗔𝗦𝗛 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗔𝗦𝗦 𝗞𝗛𝗔𝗧𝗔𝗠",
+      "required": true
+    }
+  },
+  "repository": "https://github.com/Vikas-841/chatgpt/"
+}
