@@ -1,13 +1,13 @@
 
 {
-  "name": "𝗖𝗛𝗔𝗧𝗚𝗣𝗧𝗕𝗢𝗧",
-  "description": "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗖𝗛𝗔𝗧 𝗚𝗣𝗧 𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 vikas.",
+  "name": "Get Restricted Content",
+  "description": "TELEGRAM Get Restricted Content BOT MADE BY vikas.",
   "logo": "https://graph.org/file/b840154ca8a628e14577d.jpg",
   "keywords": [
-    "telegram", "chatgpt",
+    "telegram", "Get Restricted Content",
     "python",
     "pyrogram",
-    "CRAZYTEAM"   
+    "VG_BOTZ"   
   ],
   "stack": "heroku-20",
   "addons": [
@@ -19,16 +19,19 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": { "description": "𝗕𝗢𝗧 𝗧𝗢𝗞𝗘𝗡 𝗗𝗔𝗟 𝗡𝗔𝗔 𝗝𝗛𝗔𝗔𝗧𝗛𝗨",
+    "TOKEN": { "description": "𝗕𝗢𝗧 𝗧𝗢𝗞𝗘𝗡 𝗗𝗔𝗟 𝗡𝗔𝗔 𝗝𝗛𝗔𝗔𝗧𝗛𝗨",
       "required": true
     },
     
     
-    "API_ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
+    "ID": { "description": "𝗔𝗣𝗜 𝗜𝗗 𝗬𝗔𝗛𝗔 𝗣",
       "required": true
     },
-    "API_HASH": {
+    "HASH": {
       "description": "𝗔𝗣𝗜 𝗛𝗔𝗦𝗛 𝗗𝗔𝗟 𝗗𝗘 𝗕𝗔𝗦𝗦 𝗞𝗛𝗔𝗧𝗔𝗠",
+      "required": true
+    },
+    "STRING": { "description": "you get @StringFatherBot",
       "required": true
     }
   },
