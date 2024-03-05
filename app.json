@@ -9,7 +9,7 @@
     "pyrogram",
     "VG_BOTZ"   
   ],
-  "stack": "heroku-20",
+  "stack": "heroku-22",
   "addons": [
     {
       "plan": "heroku-postgresql",
